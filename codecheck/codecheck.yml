@@ -33,8 +33,14 @@ codechecker:
   ORCID: 0000-0002-5066-8549
   name: Mabel Li
   ORCID: 0000-0002-0249-3975
+  name: Ankit Tandon
+  ORCID: 0000-0001-6319-7670
+  name: Ankita Pal
+  ORCID: 0000-0001-8411-968X
+  name: Chavi Gupta
+  ORCID: 0000-0003-3884-8456
   
-report: http://doi.org/10.5281/zenodo.3700199
+report: http://doi.org/10.5281/zenodo.3700230
 
 codechecker:
   notes: |
