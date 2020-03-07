@@ -1,0 +1,44 @@
+%YAML 1.1
+---
+version: https://codecheck.org.uk/spec/1.0
+
+manifest:
+  - file: sampled_tweet_dataset.csv
+    comment: randomly sampled dataset of 3000 tweets. originally stored at analysis/sampled_tweet_dataset.csv
+  - file: refined_tweet_dataset.csv
+    comment: preprocessed sampled tweets. originally stored at analysis/refined_tweet_dataset.csv
+  - file: prepared_tweet_dataset.csv
+    comment: trained data. originally stored at analysis/prepared_tweet_dataset.csv
+  - file: WordCloud.png
+    comment: word cloud including the most frequent words in tweets. referred in the paper.rmd and stored at analysis/WordCloud.png
+  - file: replication_metrics.csv
+    comment: metrics showing precision, recall, and F1-score. originally stored at analysis/replication_metrics.csv
+  - file: _main.docx
+    comment: knitted paper. originally stored at analysis/Replication_Report.docx
+    
+
+authors:
+  - name: Aboli Moroney
+    ORCID: 0000-0003-1226-3185
+  - name: Harini Ram Prasad
+    ORCID: 0000-0001-5419-8030
+  - name: Mayank Goel
+    ORCID: 0000-0002-2458-910X
+  - name: Samarth Modi
+    ORCID: 0000-0003-0681-231X
+
+---
+codechecker:
+  name: Kirti Kharb
+  ORCID: 0000-0002-5066-8549
+  name: Mabel Li
+  ORCID: 0000-0002-0249-3975
+  
+
+codechecker:
+  notes: |
+    The check was straightforward as all material was provided and documented well.
+    The created metrics seem to match the ones provided by the target group. 
+  repository: https://github.com/KirtiKharb/goel-modi-moroney-ramprasad-replication-project
+  check_time: "2020-03-06 16:20:00"
+  
